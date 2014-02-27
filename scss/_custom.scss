@@ -17,3 +17,25 @@
 .tip-title {
 	color: #fff;
 }
+
+.orbit-container {
+	height: 175px;
+}
+
+.slider-film-title {
+	position: absolute; 
+	bottom: 0px; 
+	background: black; 
+	color: white;
+	margin-bottom: 0;
+	padding: 5px;
+}
+.slider-film-type {
+	position: absolute; 
+	top: 0px; 
+	right: 15px;
+	background: $primary-color; 
+	color: white;
+	margin-top: 0;
+	padding: 5px;
+}
