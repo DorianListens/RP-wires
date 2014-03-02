@@ -22,9 +22,9 @@
 	height: 175px;
 }
 
-.slider-film-title {
+.xslider-film-title {
 	position: absolute; 
-	bottom: 0px; 
+	bottom: -20px; 
 	background: black; 
 	color: white;
 	margin-bottom: 0;
@@ -37,5 +37,23 @@
 	background: $primary-color; 
 	color: white;
 	margin-top: 0;
+	padding: 5px;
+}
+
+.film-item {
+	margin-bottom: 24px;
+	margin-right: 24px;
+}
+
+.filter {
+	display: inline;
+}
+
+.filter li {
+	background: #eee;
+	&:hover { 
+		background: darken(#eee, 10);
+	}
+	display: inline;
 	padding: 5px;
 }
